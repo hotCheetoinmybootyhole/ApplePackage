@@ -2,6 +2,8 @@
 
 A Swift package and command-line tool for managing Apple apps, including searching, downloading, and authenticating with Apple services.
 
+For a version with a graphical user interface (GUI) and an on-device installer, check out [Asspp](https://github.com/Lakr233/Asspp).
+
 ## Features
 
 - **Authentication**: Login and logout from Apple accounts
